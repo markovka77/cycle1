@@ -36,8 +36,8 @@ public class Main {
         // «Месяц …, сумма накоплений равна … рублей».
         int salary = 29000;
         int total = 0;
-        for (int i = 0; i < 12;i++){
-            total = total + total/12;
+        for (int i = 0; i < 12; i++){
+            total = total + total/100;
             total = total + salary;
             System.out.println("Месяц " + i + " , сумма накоплений равна " + total + " рублей");
         }
@@ -63,17 +63,19 @@ public class Main {
         //Напишите программу, которая выводит в консоль последовательность чисел:
         //1 2 4 8 16 32 64 128 256 512
         for (int i = 1; i <= 512; i = i*2){
-            System.out.println(i);
+            System.out.print(i+ " ");
         }
+        System.out.println();
     }
 
     private static void task6() {
-        System.out.println("Задача 7");
+        System.out.println("Задача 6");
         //* Напишите программу, которая выводит в консоль последовательность чисел:
         //7 14 21 28 35 42 49 56 63 70 77 84 91 98
         for (int i = 7; i <= 98; i = i+7){
-            System.out.println(i);
+            System.out.print(i+ " ");
         }
+        System.out.println();
     }
 
     private static void task5() {
